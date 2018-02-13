@@ -1,0 +1,4 @@
+# runSIM.R is the main function and should be executed within R
+# This function creates Figure 2A of the manuscript
+# Software needed: PopGenome, ms and seq-gen
+
