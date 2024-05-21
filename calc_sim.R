@@ -37,11 +37,11 @@ var_newD[1] <- var(test@BD, na.rm=TRUE)
 LnewD[[1]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[1]     <- mean(test@df, na.rm=TRUE)
-var_newD2[1] <- var(test@df, na.rm=TRUE)
-LnewD2[[1]]  <- test@df
+newD2[1]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[1] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[1]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -69,11 +69,11 @@ var_newD[2] <- var(test@BD, na.rm=TRUE)
 LnewD[[2]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[2]     <- mean(test@df, na.rm=TRUE)
-var_newD2[2] <- var(test@df, na.rm=TRUE)
-LnewD2[[2]]  <- test@df
+newD2[2]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[2] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[2]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -101,11 +101,11 @@ var_newD[3] <- var(test@BD, na.rm=TRUE)
 LnewD[[3]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[3]     <- mean(test@df, na.rm=TRUE)
-var_newD2[3] <- var(test@df, na.rm=TRUE)
-LnewD2[[3]]  <- test@df
+newD2[3]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[3] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[3]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -133,11 +133,11 @@ var_newD[4] <- var(test@BD, na.rm=TRUE)
 LnewD[[4]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[4]     <- mean(test@df, na.rm=TRUE)
-var_newD2[4] <- var(test@df, na.rm=TRUE)
-LnewD2[[4]]  <- test@df
+newD2[4]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[4] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[4]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -165,11 +165,11 @@ var_newD[5] <- var(test@BD, na.rm=TRUE)
 LnewD[[5]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[5]     <- mean(test@df, na.rm=TRUE)
-var_newD2[5] <- var(test@df, na.rm=TRUE)
-LnewD2[[5]]  <- test@df
+newD2[5]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[5] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[5]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -197,11 +197,11 @@ var_newD[6] <- var(test@BD, na.rm=TRUE)
 LnewD[[6]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[6]     <- mean(test@df, na.rm=TRUE)
-var_newD2[6] <- var(test@df, na.rm=TRUE)
-LnewD2[[6]]  <- test@df
+newD2[6]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[6] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[6]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -229,11 +229,11 @@ var_newD[7] <- var(test@BD, na.rm=TRUE)
 LnewD[[7]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[7]     <- mean(test@df, na.rm=TRUE)
-var_newD2[7] <- var(test@df, na.rm=TRUE)
-LnewD2[[7]]  <- test@df
+newD2[7]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[7] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[7]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -261,11 +261,11 @@ var_newD[8] <- var(test@BD, na.rm=TRUE)
 LnewD[[8]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[8]     <- mean(test@df, na.rm=TRUE)
-var_newD2[8] <- var(test@df, na.rm=TRUE)
-LnewD2[[8]]  <- test@df
+newD2[8]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[8] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[8]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -293,11 +293,11 @@ var_newD[9] <- var(test@BD, na.rm=TRUE)
 LnewD[[9]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[9]     <- mean(test@df, na.rm=TRUE)
-var_newD2[9] <- var(test@df, na.rm=TRUE)
-LnewD2[[9]]  <- test@df
+newD2[9]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[9] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[9]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -325,11 +325,11 @@ var_newD[10] <- var(test@BD, na.rm=TRUE)
 LnewD[[10]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[10]     <- mean(test@df, na.rm=TRUE)
-var_newD2[10] <- var(test@df, na.rm=TRUE)
-LnewD2[[10]]  <- test@df
+newD2[10]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[10] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[10]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)
@@ -357,11 +357,11 @@ var_newD[11] <- var(test@BD, na.rm=TRUE)
 LnewD[[11]]  <- test@BD
 
 # Bd-fraction
-test <- introgression.stats(test, do.df=TRUE, do.CLR=FALSE)
+test <- introgression.stats(test, do.BDF=TRUE, do.CLR=FALSE)
 
-newD2[11]     <- mean(test@df, na.rm=TRUE)
-var_newD2[11] <- var(test@df, na.rm=TRUE)
-LnewD2[[11]]  <- test@df
+newD2[11]     <- mean(test@BDF, na.rm=TRUE)
+var_newD2[11] <- var(test@BDF, na.rm=TRUE)
+LnewD2[[11]]  <- test@BDF
 
 # Patt-D
 test <- introgression.stats(test, do.D=TRUE, do.CLR=FALSE)

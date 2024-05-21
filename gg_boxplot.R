@@ -14,7 +14,7 @@ DATA2 <- cbind(NAME, FRAC, STAT)
 
 STAT <- as.vector(unlist(LnewD2))
 FRAC <- rep(c("F-1","F-0.9","F-0.8","F-0.7","F-0.6","F-0.5","F-0.4","F-0.3","F-0.2","F-0.1","F-0"),rep(100,11))
-NAME <- rep("df",11*100) #rep("Bd-fraction",11*100)
+NAME <- rep("Bd-fraction",11*100) #rep("Bd-fraction",11*100)
 
 DATA22 <- cbind(NAME, FRAC, STAT)
 
